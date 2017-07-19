@@ -333,3 +333,8 @@
 	.add-bottom { margin-bottom: 20px !important; }
 
 
+/* my Custom CSS */
+.text-justify{
+     text-align: justify;
+}
+
