@@ -1,7 +1,8 @@
+{% include base.html %}
 <nav>
   <div style="float:left">
   <h1 style='margin-left:-25%'>{{site.data.theme.name}}</h1>
-  <img style='height: 75%; width: 75%; border-radius: 50%; margin-left:-1%; object-fit: contain' class="img-circle avatar" src="/pic.png" id="logo" alt="Blog logo"/>
+  <img style='height: 75%; width: 75%; border-radius: 50%; margin-left:-1%; object-fit: contain' class="img-circle avatar" src="{{base}}/assets/pic.png" id="logo" alt="Blog logo"/>
   </div>
 
   <div id="bio">
@@ -10,9 +11,8 @@
   </div>
 
   <div id="links">
-    <a href="#about">about</a></br>
-    <a href="#research_interests">research</a></br>
-    <a href="other_interests">other interests</a></br>
+    <a href="/index">home</a></br>
+    <a href="/projects">projects</a></br>
     <a href="/blog">blog</a></br>
     <a href="/cv.pdf">cv - updated</a></br>
 
