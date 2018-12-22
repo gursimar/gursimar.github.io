@@ -3,7 +3,7 @@ highlighter: rouge
 url: http://gursimar.github.io/
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-markdown: redcarpet
+markdown: kramdown
 
 kramdown:
   auto_ids:       true
