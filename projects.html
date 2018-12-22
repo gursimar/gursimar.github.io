@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gursimran - Projects</title>
+  <meta name="author" content="Gursimran" />
+  <meta name="description" content="The blog of Gursimran" />
+  <link rel="canonical" href="http://localhost:4000/projects.html" />
+
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="Gursimran" href="http://localhost:4000/atom.xml" />
+
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="four columns sidebar">
+      <!-- _includes/base.html -->
+
+
+
+<nav>
+  <div style="float:left">
+  <h1 style='margin-left:-25%'>Gursimran</h1>
+  <img style='height: 75%; width: 75%; border-radius: 50%; margin-left:-1%; object-fit: contain' class="img-circle avatar" src="./assets/pic.png" id="logo" alt="Blog logo"/>
+  </div>
+
+  <div id="bio">
+      <br>
+    <!--p><code>machine leanring<br>education at scale<br>DIY electronics.</code></p>-->
+  </div>
+
+  <div id="links">
+    <a href="/index">home</a></br>
+    <a href="/projects">projects</a></br>
+    <a href="/blog">blog</a></br>
+    <a href="/cv.pdf">cv - updated</a></br>
+
+
+  </div>
+  
+  </br></br>
+  
+  <div id="social">
+    Follow me:
+<div id="stalker">
+  
+  <a title="gursimar on Github" href="https://github.com/gursimar">
+    <i class="fa fa-github-square"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <a title="Gursimran on Facebook" href="https://facebook.com/singh.gursimr">
+    <i class="fa fa-facebook-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Gursimran on LinkedIn" href="https://www.linkedin.com/in/gursimar">
+    <i class="fa fa-linkedin-square"></i>
+  </a>
+  
+
+  
+  <a title="Gursimran on Google Plus" href="https://plus.google.com/+GursimransinghMuhar">
+    <i class="fa fa-google-plus-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Atom feed" id="atom" href="/atom.xml">
+    <i class="fa fa-rss-square"></i>
+  </a>
+  
+</div>
+
+  </div>
+</nav>
+
+    </div>
+
+    <div class="eleven columns content">
+      <!-- _includes/base.html -->
+
+
+
+<div class="row vertical-center about-desc">
+    <div class="col-sm-12">
+      <h4>Automatic grading of computer programs</h4>
+      <h5>Published at KDD 2016 <a href="https://www.kdd.org/kdd2016/papers/files/adf0798-singhA.pdf" onclick="_gaq.push(['_trackEvent','Download','PDF',this.href]);" target="_blank">[link]</a>, Blog post <a href="http://research.aspiringminds.com/question-independent-grading-kdd/" target="_blank">[link]</a> &nbsp;&nbsp;</h5>
+      <h6>Work done with Varun Aggarwal and Shashank Srikant.</h6>
+      
+           <iframe style="float:right; margin:10px;" width="300" height="200" src="https://www.youtube.com/embed/vMlZwQZMwDs" frameborder="0" allowfullscreen></iframe>
+           <p style="text-align:justify;">
+            We pose the grading of computer programs as a machine learning problem. We extract an array of semantic features by a combination of parsing abstract syntax trees and applying NLP techniques. Using these features, we learn a supervised model to predict the grade of a response in terms of logic (functional correctness), stylistics (code clarity, structure, etc) and runtime efficiency. However, this requires us to learn a separate model for each programming question which is time consuming and cost intensive. As part of our KDD 2016 work, we devise a semi-supervised approach to learn a single question-independent model. The basic idea is to use closeness to a set of good responses as a question-invariant feature. In doing so, we devise a novel way of scaling machine learning for open-response grading, applicable to many other domains like mathematical equations and electronic circuit solving. The utility of this research is validated by its use in hiring thousands of programmers worldwide by Aspiring Minds high-end clientele like Amazon and Baidu.
+          </p>
+    </div>     
+</div>
+<!--div class="row vertical-center about-desc">
+    <div class="col-sm-6">
+           <p align="center"><img src='/img/kdd/kdd_1.png' width = '300' /></p>
+    </div>
+    <div class="col-sm-6">
+           <p align="center"><iframe width="300" height="200" src="https://www.youtube.com/embed/vMlZwQZMwDs" frameborder="0" allowfullscreen></iframe></p>
+    </div>
+</div-->
+
+<div class="newline"></div>
+
+
+<div class="row vertical-center about-desc">
+    <div class="col-sm-12">
+      <h4>A bayesian approach to visual question answering</h4>
+      <h5>Course project - <a href='https://www.cs.ubc.ca/~fwood/CS532W-539W/' target="_blank">Probablistic Programming</a> &nbsp;&nbsp;</h5>
+      <h6>Work done with Saeid Naderiparizi and Setareh Cohan.</h6>
+           <img style="float:right; margin:10px" src='/assets/bayesian_vqa.png' width = '300' />
+           <p style="text-align:justify;">
+            Typical approaches for visual question answering use black-box neural networks for both reasoning and perception. It has been shown that they fail to generalize and tend to overfit to dataset specific biases. We pose the visual question answering as two separate discrete-latent variable inference problems. This is guided by the intuition that VQA task is much easier and straightforward in the latent space. We use inference compilation to efficiently perform amortized inference and use symbolic solver in the latent space to arrive at an answer. Hence we use an approach which disentangles reasoning from perception. We demonstrate our approach on the sort-of-CLEVR dataset and achieve state of the art performance. Read the full report [<a href='./assets/CPSC_539W_final.pdf' target="_blank">link</a>]
+    </div>     
+</div>
+<div class="newline"></div>
+
+<div class="row vertical-center about-desc">
+    <div class="col-sm-12">
+      <h4>Enhanced Visual Dialog</h4>
+      <h5>Course project - <a href='https://www.cs.ubc.ca/~lsigal/teaching17.html' target="_blank">Multimodal Learning with Vision, Language and Sound</a> &nbsp;&nbsp;</h5>
+      <h6>Work done with Mohit Bajaj and Siddhesh Khandelwal.</h6>
+           <img style="float:right; margin:10px" src='/assets/visual_diag.png' width = '300' />
+           <p style="text-align:justify;">
+            The visual dialog is the task of training an AI agent to hold meaningful dialog on images. A previous approach posed it as a deep reinforcement learning problem in which two bots - Q-Bot, the question bot, and A-bot, the answer bot, played a cooperative image guessing game. In order for the two bots to succeed the Q-Bot has to learn to ask relevant questions and A-bot has to learn to answer the questions correctly. We propose various techniques to improve performance. First, we propose a novel dynamic layer prediction mechanism that, given a question, generates a convolution filter to extract question-specific information from the image. Second, to help reduce the redundancy in the generated questions and also improve the quality of the generated answers, we propose an attention memory to keep track of past dialog information. Third, we devise a new framework that enables end-to-end training of the two bots using Gumbel-softmax approximation. Finally, we explore the use of Generative Adversarial Networks (GANs) to make the dialogue more natural and human-like. Read the full report [<a href='./assets/CPSC_532L_Project_report.pdf' target="_blank">link</a>]
+    </div>     
+</div>
+
+<div class="newline"></div>
+
+
+
+<div class="row vertical-center about-desc">
+    <div class="col-sm-12">
+      <h4>Visualizing the bias-variance tradeoff</h4>
+      <h5>Course project - <a href='https://www.cs.ubc.ca/~tmm/courses/547-15/' target="_blank">Information Visualization</a> &nbsp;&nbsp;</h5>
+      <h6>Work done with Halldor Thorhallsson</h6>
+      </h5>
+           <img style="float:right; margin:10px" src='/assets/poly_reg.png' width = '300' />
+           <p style="text-align:justify;">
+            We developed a visualization tool to help obtain an intuitive understanding of the Bias-Variance tradeoff. We demonstrate two machine learning algorithms namely, Polynomial Regression, and K-Nearest Neighbours, to cover both classification and regression tasks. In our tool, users are allowed to choose the complexity of data and play with the various hyperparameters of algorithms. A change in the complexity of data and hyperparameters of models automatically update all visualizations, hence giving an intuitive understanding of the bias-variance tradeoff. Both the Polynomial Regression [<a href='https://gursimar.github.io/d3-visualizations/bias-var/' target="_blank">link</a>] and k-Nearest Neighbours [<a href='https://halldorbjarni.github.io/knn-viz/' target="_blank">link</a>] playgrounds are available online. Read the full report [<a href='./assets/CPSC_547_report.pdf' target="_blank">link</a>]
+
+    </div>     
+</div>
+
+<div class="newline"></div>
+
+
+
+
+
+      <div class="footer">
+        <div class="disclaimer">
+  
+  <!--p>
+    The postings on this site are my own and don't necessarily represent my 
+    employer’s positions, strategies or opinions.
+  </p-->
+  
+
+  <p>
+    © Gursimran, 2014 &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
+  </p>
+</div>
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
