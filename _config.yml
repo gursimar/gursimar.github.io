@@ -1,9 +1,9 @@
 # General Jekyll Config
-highlighter: pygments
+highlighter: rouge
 url: http://gursimar.github.io/
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-markdown: kramdown
+markdown: redcarpet
 
 kramdown:
   auto_ids:       true
