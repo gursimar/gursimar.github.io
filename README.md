@@ -5,10 +5,22 @@
 ### Local deployment
 - `bundle install`
 - `bundle exec jekyll serve`
+
+### Remote source
+- `git pull origin source`
+- `git add .`
+- `git commit -m "blah blah"`
+- `git push origin source`
   
-### Remote deployment
+### Remote master deployment
 - `bundle exec jekyll serve (locally)`
 - `rake deploy`
+
+### Rejected! master
+- Go to branches on github
+- Delete master
+- 'rake deploy'
+
 
 ## References
 - kramdown
