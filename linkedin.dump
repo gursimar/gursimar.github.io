@@ -1,0 +1,339 @@
+Gursimran Singh
+Staff AI Researcher | LLM Inference & Post-Training Systems | RL Fine-Tuning | Multimodal AI | Distributed AI Systems
+
+Vancouver, British Columbia, Canada
+
+·
+
+Contact info
+
+
+Huawei Canada
+
+
+The University of British Columbia
+
+500+ connections
+
+
+Open to
+Add section
+
+Enhance profile
+
+Analytics
+Private to you
+
+82 profile views
+
+Discover who’s viewed your profile.
+
+1 post impression
+
+Check out who’s engaging with your posts.
+
+Past 7 days
+
+65 search appearances
+
+See how often you appear in search results.
+
+Show all
+About
+I’m a Staff AI Researcher at Huawei Canada with 10+ years of experience in machine learning research and engineering, currently building systems for efficient LLM inference and post-training, with a focus on reinforcement learning fine-tuning, distributed AI infrastructure, and multimodal models.
+ 
+My recent work spans multimodal encode–prefill–decode disaggregation, elastic MoE LLM serving, multi-tenant asynchronous RL infrastructure, and distributed LoRA/RL fine-tuning. I lead projects from problem formulation and systems architecture through implementation, large-scale evaluation, publication, patenting, open-source release, and product integration.
+ 
+Earlier in my career at Aspiring Minds, I led development of an end-to-end machine-learning product for automated programming assessment, from research and dataset development to production deployment. The resulting systems were used at 1M+ programmer scale and led to work published at KDD.
+ 
+Across my career, my work has led to publications at ICML, CVPR, KDD, WACV, and BMVC, a portfolio of 14+ U.S. patent filings, open-source contributions, and large-scale real-world deployments.
+ 
+Areas: LLM inference & serving · LLM post-training · RL fine-tuning · distributed AI systems · multimodal AI · model efficiency
+Stack: PyTorch · vLLM · Megatron-LM · AReaL · Ray · Transformers · Python · C++ · CUDA
+
+Activity
+1,962 followers
+
+Create a post
+Gursimran Singh commented on a post
+
+•
+
+7mo
+
+How come im so perfectly cut out
+
+Gursimran Singh commented on a post
+
+•
+
+10mo
+
+Congrats Rayat.
+
+Show all
+Experience
+
+Huawei Canada logo
+Huawei Canada
+
+Permanent Full-time · 7 yrs 4 mos
+
+Vancouver, British Columbia, Canada · On-site
+
+Staff AI Researcher
+
+Apr 2026 - Present · 5 mos
+
+• Lead research and engineering programs in LLM inference/serving and RL post-training infrastructure, spanning systems architecture, implementation, large-scale evaluation, and delivery.
+• Lead/co-lead ElasticMoE and MARLaaS, exploring elastic serving of mixture-of-experts models and multi-tenant asynchronous RL infrastructure.
+ • Lead open-source development for LoRA-based RL fine-tuning in AReaL/Megatron, including distributed adapter training, Megatron-to-vLLM synchronization, pipeline parallelism, multi-node MoE training, and GPU/Ascend execution.
+ • Lead small technical teams and mentor researchers/engineers while remaining hands-on in Python, C++, distributed training/inference systems, and accelerator-level optimization.
+
+Senior AI Researcher
+
+Nov 2023 - Mar 2026 · 2 yrs 5 mos
+
+• Led research on large-model inference, multimodal serving, and model efficiency, taking projects from research prototype through large-scale evaluation, publication, patenting, and open-source/product integration.
+ • Project lead for EPD Disaggregation, an encode–prefill–decode architecture for multimodal model serving that reduced memory requirements by up to 15× and TTFT by up to 71%; published at ICML 2025.
+ • Co-led DivPrune, a training-free visual-token pruning method that pruned up to 60% of visual tokens with negligible accuracy loss and reduced TTFT by roughly 50%; published at CVPR 2025.
+ • Worked across systems architecture, prototyping, distributed implementation, performance optimization, experimentation, and research publication.
+
+AI Researcher
+
+May 2019 - Nov 2023 · 4 yrs 7 mos
+
+• Conducted applied research across computer vision, NLP, trustworthy ML, privacy, watermarking, and model selection, developing research ideas from prototype through patent/publication.
+ • Developed methods in minority-class mining, model selection, and 3D asset watermarking, contributing to publications including MMM 2022 and WACV 2025.
+ • Filed multiple U.S. patent applications spanning machine-learning data mining, privacy, fairness, watermarking, and model efficiency.
+
+The University of British Columbia logo
+The University of British Columbia
+
+Part-time · 2 yrs 2 mos
+
+Greater Vancouver Metropolitan Area
+
+Graduate Research Assistant
+
+May 2018 - Oct 2019 · 1 yr 6 mos
+
+• Conducted research in video question answering, multimodal reasoning, and probabilistic deep learning.
+• Developed a spatio-temporal relational reasoning model for video QA that improved state-of-the-art performance; work published at BMVC 2019 (Oral).
+• MSc thesis research under Prof. Jim Little and Prof. Leonid Sigal.
+
+Graduate Teaching Assistant
+
+Sep 2017 - Apr 2019 · 1 yr 8 mos
+
+Teaching Assistant for UBC's Master of Data Science program, covering machine learning, regression, model selection, unsupervised learning, visualization, and data-science workflows.
+
+Aspiring Minds logo
+Aspiring Minds
+
+4 yrs
+
+Gurugram, Haryana, India
+
+Senior Research Engineer
+
+Jan 2017 - Jun 2017 · 6 mos
+
+Applied ML systems, automated assessment, and technical leadership
+ 
+• Led research and development of an end-to-end ML product for automated programming assessment, spanning problem formulation, rubric design, data creation, modeling, evaluation, deployment, and production operation.
+ • Developed a question-independent semi-supervised grading approach that reduced question-development effort by 5× and led to a KDD 2016 publication.
+• Worked with enterprise customers including Amazon US to design programming-assessment rubrics and supervised ML pipelines for evaluating SDE candidates.
+ • Mentored research engineers and helped build and hire a 15-person team developing programming assessments and related ML products.
+
+Research & Development Engineer
+
+Jul 2013 - Dec 2016 · 3 yrs 6 mos
+
+• Built and deployed automated programming-assessment systems ultimately used at 1M+ programmer scale.
+• Oversaw production scoring systems evaluating functional correctness, runtime complexity, and code quality at scale.
+• Worked with HKUST to implement and train an ASR system to transcribe Indian English free speech which was to be used to grade fluency, pronunciation, and accent in free speech.
+• Implemented a 3D game-based assessment framework and devised features to grade a candidate for its aisle organization ability using machine learning.
+• Implemented, deployed and maintained various machine-learning scoring algorithms to grade computer programs in terms of functional correctness, runtime-complexity, and stylistics.
+• Worked on an interactive map to depict skill-demand using jobs-postings and job-skill mapping.
+
+Indian Institute of Science (IISc) logo
+Research Intern
+
+Indian Institute of Science (IISc)
+
+Jan 2012 - May 2012 · 5 mos
+
+Bangalore
+
+Research on matrix completion and sparse recovery at the Supercomputer Education and Research Centre (SERC); implemented SVT-based recovery and investigated structured sampling strategies.
+
+Indian Institute of Technology, Bombay logo
+KVPY Research Intern
+
+Indian Institute of Technology, Bombay
+
+Jun 2011 - Jul 2011 · 2 mos
+
+Mumbai Metropolitan Region
+
+KVPY research internship developing simulations of dynamic, stochastic, and chaotic systems and numerical methods for modeling the magnetocaloric effect.
+
+Education
+The University of British Columbia logo
+The University of British Columbia
+
+Master of Science - MS, Computer Science
+
+2017 – 2019
+
+MSc (Thesis), Computer Science
+Research: multimodal learning, video question answering, probabilistic machine learning
+
+Thapar Institute of Engineering & Technology logo
+Thapar Institute of Engineering & Technology
+
+Bachelor of Engineering (B.E.), Computer Science
+
+2009 – 2013
+
+Connected apps
+
+Add the products you use to stand out and get more profile views.
+
+
+Gamma
+
+
+IntelliJ IDEA, a JetBrains IDE
+
+
+HubSpot
+
+
+Replit Agent
+
+Add connected apps
+Licenses & certifications
+Aspiring Minds logo
+AMCAT Certified Software Engineer - Product
+
+Aspiring Minds
+
+Issued Sep 2014
+
+Show credential
+Volunteering (3)
+Coordinator
+
+ML India
+
+Jan 2016 - Jun 2017 · 1 yr 6 mos
+
+Education
+
+• Bootstrapped the Chandigarh chapter of ML India and organized meetups at various colleges.
+• Helped organize and conduct machine learning meetups in Delhi NCR.
+• Organized guest talks and prepared tutorials on regression, classification, etc.
+• Interviewed doctoral students on their research and experiences in machine learning.
+• Involved in organizing the first initiative to teach data science to kids of grade 6th-8th
+• Organized a bootcamp on supervised machine learning for university students.
+• Invited for a panel discussion at SIGKDD, San Fran, on the role of data science in start-ups.… more
+
+Bug Control Team
+
+Ubuntu
+
+Aug 2009 - Sep 2012 · 3 yrs 2 mos
+
+Science and Technology
+
+• Adopted the touchpad-driver package xserver-xorg-input-synaptics; triaged bugs and reported upstream.
+• Maintained and re-wrote documentation on use cases and bug-reports for the touchpad package.
+• Mentored two contributors for the bug-squad and bug-control teams applications.… more
+
+Show all 3 volunteer experiences
+Skills (21)
+Large Language Models (LLMs)
+
+Reinforcement Learning (RLVR, GRPO, DPO)
+
+Show all
+Recommendations
+Show all pending
+
+
+Received
+
+Given (1)
+You haven’t received a recommendation yet
+
+Try asking one of your connections to recommend you
+
+Ask for a recommendation
+Publications (6)
+Efficiently Serving Large Multimodal Models Using EPD Disaggregation
+
+ICML 2025 · Jan 11, 2025
+
+Show publication
+DivPrune: Diversity-based Visual Token Pruning for Large Multimodal Models
+
+CVPR 2025 · Jan 7, 2025
+
+Show publication
+Show all 6 publications
+Test scores
+GRE
+
+Score: 325 · Nov 2016
+
+TOEFL
+
+Score: 111 · Nov 2016
+
+Languages
+English
+
+Full professional proficiency
+
+Punjabi
+
+Native or bilingual proficiency
+
+Interests
+
+Top Voices
+
+Companies
+
+Groups
+
+Newsletters
+
+Schools
+
+Kunal Shah 
+
+· 2nd
+
+Head - WhatsApp, Founder - CRED, curious. 
+
+1,415,900 followers
+
+
+Following
+
+Navdeep Bains 
+
+· 2nd
+
+Proud Ontarian. Prouder dad.  Let’s lead again. // Fier Ontarien. Fier père de famille.   Reprenons les devants.  Candidate for Leader of the OLP.
+
+149,976 followers
+
+
+Following
+Show all
+Causes
+Education • Human Rights • Politics • Science and Technology
