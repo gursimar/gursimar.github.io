@@ -25,6 +25,12 @@
 </head>
 <body>
   <div class="container{% if page.page_class %} {{ page.page_class | escape }}{% endif %}">
+    <header class="mobile-profile">
+      <a href="{{ '/index.html' | relative_url }}" aria-label="{{ site.data.theme.name | escape }} — home">
+        <img src="{{ '/assets/pic.png' | relative_url }}" alt="{{ site.data.theme.name | escape }}" width="96" height="96">
+        <span>{{ site.data.theme.name | escape }}</span>
+      </a>
+    </header>
     <nav class="mobile-nav" aria-label="Main navigation">
       <a href="{{ '/index.html' | relative_url }}">home</a>
       <a href="{{ '/projects.html' | relative_url }}">projects</a>

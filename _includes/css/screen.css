@@ -450,6 +450,7 @@ sup {
   margin-top: 14px;
 }
 
+.mobile-profile,
 .mobile-nav {
   display: none;
 }
