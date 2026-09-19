@@ -36,12 +36,6 @@ Follow me:
   </a>
   {% endif %}
 
-  {% if site.data.theme.social.facebook %}
-  <a title="{{ site.data.theme.name }} on Facebook" href="https://facebook.com/{{ site.data.theme.social.facebook }}">
-    <i class="fa fa-facebook-square"></i>
-  </a>
-  {% endif %}
-
   {% if site.data.theme.social.tumblr %}
   <a title="{{ site.data.theme.name }} on tumblr" href="https://{{ site.data.theme.social.tumblr }}.tumblr.com">
     <i class="fa fa-tumblr-square"></i>
@@ -54,21 +48,17 @@ Follow me:
   </a>
   {% endif %}
 
-  {% if site.data.theme.social.gplus %}
-  <a title="{{ site.data.theme.name }} on Google Plus" href="https://plus.google.com/{{ site.data.theme.social.gplus }}">
-    <i class="fa fa-google-plus-square"></i>
-  </a>
-  {% endif %}
-
   {% if site.data.theme.social.flickr %}
   <a title="{{ site.data.theme.name }} on Flickr" href="https://www.flickr.com/photos/{{ site.data.theme.social.flickr }}">
     <i class="fa fa-flickr"></i>
   </a>
   {% endif %}
 
-  {% if site.data.theme.show_atom_feed %}
-  <a title="Atom feed" id="atom" href="/atom.xml">
-    <i class="fa fa-rss-square"></i>
+  {% if site.data.theme.social.scholar %}
+  <a title="{{ site.data.theme.name }} on Google Scholar" aria-label="Google Scholar" href="{{ site.data.theme.social.scholar | escape }}">
+    <svg class="scholar-icon" viewBox="0 0 24 24" width="24" height="28" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+    </svg>
   </a>
   {% endif %}
 </div>

@@ -8,22 +8,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.data.theme.name }} - {{ page.title }}</title>
   <meta name="author" content="{{ site.data.theme.name }}" />
-  <meta name="description" content="The blog of {{ site.data.theme.name }}" />
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+  <meta name="description" content="{{ page.description | default: site.data.theme.description | escape }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
 
   <script type="text/javascript"
     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
   
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon.png' | relative_url }}?v=lion-20260907">
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}?v=lion-20260907">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}?v=lion-20260907">
 
   <link rel="stylesheet" href="/assets/css/all.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
 </head>
 <body>
-  <div class="container">
+  <div class="container{% if page.page_class %} {{ page.page_class | escape }}{% endif %}">
+    <nav class="mobile-nav" aria-label="Main navigation">
+      <a href="{{ '/index.html' | relative_url }}">home</a>
+      <a href="{{ '/projects.html' | relative_url }}">projects</a>
+      <a href="{{ '/publications.html' | relative_url }}">publications</a>
+      <a href="{{ '/patents.html' | relative_url }}">patents</a>
+      <a href="{{ '/contact.html' | relative_url }}">contact</a>
+    </nav>
     <div class="four columns sidebar">
       {% include sidebar.html %}
     </div>

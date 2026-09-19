@@ -1,0 +1,163 @@
+# Selected publications; figure sources are documented in assets/publications/SOURCES.md.
+
+- title: 'MARLaaS: Multi-Tenant Asynchronous Reinforcement Learning as a Service'
+  authors: Timothy Tin Long Yu, Gursimran Singh, Ge Shi, Hanieh Sadri, Yong Zhang, and Zhenan Fan
+  venue: Preprint, 2026
+  url: https://arxiv.org/abs/2605.08527
+  image: /assets/projects/marlaas.png
+  image_alt: MARLaaS system overview with a multi-task manager and separate rollout and training engines
+  summary: An asynchronous RL service that shares a base model across tenants using LoRA adapters. Independently
+    scheduled rollout, environment, and training stages let concurrent tasks progress at their own pace while improving
+    accelerator utilization.
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2605.08527
+  - label: arXiv
+    url: https://arxiv.org/abs/2605.08527
+  image_width: 3658
+  image_height: 1872
+- title: 'LLM Inference Scheduling: A Survey of Techniques, Frameworks, and Trade-offs'
+  authors: Morgan Heisler, Zahra Yousefijamarani, Xinglu Wang, …, Gursimran Singh, et al.
+  venue: TechRxiv preprint, 2025
+  url: https://doi.org/10.36227/techrxiv.176238087.79673350/v1
+  image: /assets/publications/inference-scheduling.svg
+  image_alt: Overview of LLM inference scheduling, connecting incoming requests, control-plane resource allocation,
+    and data-plane execution
+  summary: A survey of scheduling strategies for LLM serving across the control and data planes, covering batching,
+    resource allocation, and multi-tenant workloads, with a comparison of latency, cost, and throughput trade-offs.
+  links:
+  - label: paper
+    url: https://doi.org/10.36227/techrxiv.176238087.79673350/v1
+  image_width: 640
+  image_height: 390
+- title: 'ElasticMoE: An Efficient Auto Scaling Method for Mixture-of-Experts Models'
+  authors: Gursimran Singh, Timothy Yu, Haley Li, Cheng Chen, et al.
+  venue: Preprint, 2025
+  url: https://arxiv.org/abs/2510.02613
+  image: /assets/projects/elasticmoe.png
+  image_alt: Horizontal, vertical, and ElasticMoE scaling compared
+  summary: An elastic serving system that scales mixture-of-experts models while continuing to serve requests. Decoupling
+    inference from memory operations enables fine-grained scaling with up to 9× lower scale-up latency in our evaluation.
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2510.02613
+  - label: arXiv
+    url: https://arxiv.org/abs/2510.02613
+  image_width: 799
+  image_height: 450
+- title: Efficiently Serving Large Multimodal Models Using EPD Disaggregation
+  authors: Gursimran Singh, Xinglu Wang, Yifan Hu, Timothy Yu, et al.
+  venue: ICML 2025
+  url: https://arxiv.org/abs/2501.05460
+  image: /assets/projects/epdserve.png
+  image_alt: EPDServe architecture separating encoding, prefill, and decoding
+  summary: Separates encoding, prefill, and decoding so each serving stage can scale independently. Our evaluation
+    showed up to 15× lower peak memory use and up to 71% lower time to first token.
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2501.05460
+  - label: code
+    url: https://github.com/vbdi/epdserve
+  - label: arXiv
+    url: https://arxiv.org/abs/2501.05460
+  image_width: 3625
+  image_height: 1660
+- title: 'DivPrune: Diversity-based Visual Token Pruning for Large Multimodal Models'
+  authors: Saeed Ranjbar Alvar, Gursimran Singh, Mohammad Akbari, and Yong Zhang
+  venue: CVPR 2025
+  url: https://arxiv.org/abs/2503.02175
+  image: /assets/projects/divprune.jpg
+  image_alt: DivPrune overview showing diversity-based visual token selection
+  summary: Training-free visual token pruning that preserves diverse information before it reaches the language
+    model. Prunes up to 60% of visual tokens with negligible accuracy loss and reduces time to first token by roughly
+    50%.
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2503.02175
+  - label: code
+    url: https://github.com/vbdi/divprune
+  - label: arXiv
+    url: https://arxiv.org/abs/2503.02175
+  image_width: 1324
+  image_height: 862
+- title: Enhancing Learned Knowledge in LoRA Adapters Through Efficient Contrastive Decoding on Ascend NPUs
+  authors: Morgan Lindsay Heisler, Linzi Xing, Ge Shi, Hanieh Sadri, Gursimran Singh, et al.
+  venue: KDD 2025
+  url: https://arxiv.org/abs/2505.14620
+  image: /assets/publications/cold.png
+  image_alt: Contrastive decoding compared with CoLD, which combines a LoRA adapter and its shared base model
+  summary: Contrastive LoRA Decoding emphasizes task-specific knowledge in an adapter by comparing its predictions
+    with the base model. An optimized Ascend NPU kernel improves task accuracy while reducing decoding latency and
+    memory use.
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2505.14620
+  - label: arXiv
+    url: https://arxiv.org/abs/2505.14620
+  image_width: 1370
+  image_height: 1124
+- title: 'Towards Secure and Usable 3D Assets: A Novel Framework for Automatic Visible Watermarking'
+  authors: Gursimran Singh, Tianxi Hu, Mohammad Akbari, Qiang Tang, and Yong Zhang
+  venue: WACV 2025
+  url: https://arxiv.org/abs/2409.00314
+  image: /assets/projects/watermarking.png
+  image_alt: Examples of visible watermarks on 3D models, comparing our method with a baseline
+  summary: A framework for automatically placing visible watermarks on 3D assets, balancing protection with usability.
+  distinction: Oral presentation
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2409.00314
+  - label: code
+    url: https://github.com/vbdi/3dviswatermark
+  - label: arXiv
+    url: https://arxiv.org/abs/2409.00314
+  image_width: 1835
+  image_height: 707
+- title: Mining Minority-Class Examples with Uncertainty Estimates
+  authors: Gursimran Singh, Lingyang Chu, Lanjun Wang, Jian Pei, Qi Tian, and Yong Zhang
+  venue: MMM 2022
+  url: https://arxiv.org/abs/2112.07835
+  image: /assets/publications/minority.png
+  image_alt: Minority-class mining pipeline that selects examples from unlabelled data to balance a skewed training
+    dataset
+  summary: Identifies rare-class examples in unlabeled data by strengthening suppressed class activations and using
+    uncertainty estimates. The mined examples help balance training data and improve performance on underrepresented
+    classes.
+  distinction: Oral presentation
+  links:
+  - label: paper
+    url: https://arxiv.org/pdf/2112.07835
+  - label: arXiv
+    url: https://arxiv.org/abs/2112.07835
+  image_width: 1209
+  image_height: 528
+- title: Spatio-Temporal Relational Reasoning for Video Question Answering
+  authors: Gursimran Singh, Leonid Sigal, and James J. Little
+  venue: BMVC 2019
+  url: https://www.cs.ubc.ca/~lsigal/Publications/bmvc2019singh.pdf
+  image: /assets/publications/videoqa.png
+  image_alt: Spatio-temporal relational network with spatial and temporal reasoning modules for video question answering
+  summary: A relational network that models interactions between objects and how they change over time to answer
+    questions about videos. Joint spatial and temporal reasoning improves performance on challenging tasks such
+    as counting.
+  distinction: Oral presentation
+  links:
+  - label: paper
+    url: https://www.cs.ubc.ca/~lsigal/Publications/bmvc2019singh.pdf
+  image_width: 738
+  image_height: 368
+- title: 'Question Independent Grading Using Machine Learning: The Case of Computer Program Grading'
+  authors: Gursimran Singh, Shashank Srikant, and Varun Aggarwal
+  venue: KDD 2016
+  url: https://www.kdd.org/kdd2016/papers/files/adf0798-singhA.pdf
+  video: vMlZwQZMwDs
+  video_title: Automatic grading of computer programs — KDD 2016 presentation
+  summary: A question-independent, semi-supervised model for grading program correctness, code quality, and runtime
+    efficiency. Reduced question-development effort by 5×; the assessment systems were deployed at 1M+ programmer
+    scale.
+  distinction: Oral presentation
+  links:
+  - label: paper
+    url: https://www.kdd.org/kdd2016/papers/files/adf0798-singhA.pdf
+  - label: video
+    url: https://www.youtube.com/watch?v=vMlZwQZMwDs

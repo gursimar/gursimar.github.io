@@ -1,0 +1,35 @@
+---
+layout: default
+title: Publications
+page_class: publications-page
+description: Selected publications and preprints by Gursimran Singh in AI systems, multimodal learning, and trustworthy machine learning.
+---
+
+<h3 id="publications">Publications</h3>
+<p>My research focuses on efficient LLM inference, reinforcement learning fine-tuning, and multimodal learning.</p>
+<p>Below are selected publications and preprints. See my <a href="{{ site.data.theme.social.scholar | escape }}">Google Scholar profile</a> for the full list and citations.</p>
+
+<ul class="publication-list" role="list">
+{% for publication in site.data.publications %}
+    <li class="publication-entry">
+        <div class="publication-details">
+            <h4 class="publication-title"><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></h4>
+            <p class="research-authors">{{ publication.authors | escape | replace: 'Gursimran Singh', '<strong>Gursimran Singh</strong>' }}</p>
+            <p class="publication-venue"><em>{{ publication.venue | escape }}</em>{% if publication.distinction %} <span class="publication-distinction">({{ publication.distinction | escape }})</span>{% endif %}</p>
+            <p class="publication-links">
+                {% for link in publication.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% unless forloop.last %}<span aria-hidden="true"> / </span>{% endunless %}{% endfor %}
+            </p>
+            <p class="publication-summary">{{ publication.summary | escape }}</p>
+        </div>
+        <div class="publication-media">
+            {% if publication.video %}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ publication.video | escape }}" title="{{ publication.video_title | escape }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {% else %}
+            <a href="{{ publication.image | relative_url }}" aria-label="View full-size figure for {{ publication.title | escape }}">
+                <img src="{{ publication.image | relative_url }}" width="{{ publication.image_width }}" height="{{ publication.image_height }}" alt="{{ publication.image_alt | escape }}" loading="lazy" decoding="async">
+            </a>
+            {% endif %}
+        </div>
+    </li>
+{% endfor %}
+</ul>

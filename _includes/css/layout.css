@@ -7,6 +7,11 @@
 * 8/17/2011
 */
 
+/* Leave room for the reserved scrollbar at the fixed-width breakpoints. */
+.container {
+  max-width: 100%;
+}
+
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
 	#logo {
@@ -71,4 +76,73 @@
 		font-size: 22px;
 		line-height: 24px;
 	}
+}
+@media only screen and (max-width: 767px) {
+  .mobile-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    padding-top: 18px;
+    font-family: "open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .project-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    margin-bottom: 36px;
+  }
+
+  .project-media {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Keep the standard 960px layout's left edge; wider content grows right. */
+  .container {
+    width: min(1160px, calc(50% + 480px));
+    margin-left: calc(50% - 480px);
+    margin-right: 0;
+  }
+
+  .container.publications-page .content,
+  .container.projects-page .content {
+    width: calc(100% - 320px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container .columns.content {
+    width: min(508px, calc(100% - 253px));
+  }
+
+  .project-entry,
+  .publication-entry {
+    grid-template-columns: minmax(0, 1fr) 200px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .projects-intro {
+    margin-bottom: 32px;
+  }
+
+  .publication-list {
+    margin-top: 32px;
+  }
+
+  .publication-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .publication-media {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }

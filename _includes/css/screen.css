@@ -7,6 +7,11 @@ html, body {
   height: 100%;
 }
 
+/* Reserve the scrollbar width on short pages as well as long ones. */
+html {
+  overflow-y: scroll;
+}
+
 body {
   font-size: 16px;
   background-color: white;
@@ -264,4 +269,187 @@ i.fa-hn {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+
+.projects-intro {
+  margin-bottom: 44px;
+}
+
+.project-section > h3 {
+  margin-bottom: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8edf2;
+}
+
+.project-entry,
+.publication-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  align-items: start;
+  gap: 28px;
+}
+
+.project-entry {
+  margin-bottom: 44px;
+}
+
+.project-details h5 {
+  margin-bottom: 4px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.project-details p {
+  margin: 8px 0 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.project-contributions {
+  margin-top: 10px;
+  font-family: "open sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.project-details .project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 8px;
+  margin: 2px 0 0;
+  line-height: 1.3;
+}
+
+.project-links a {
+  white-space: nowrap;
+}
+
+.project-links a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.project-media,
+.publication-media {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.project-media > a,
+.publication-media > a {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.project-media img,
+.publication-media img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #e8edf2;
+  border-radius: 6px;
+  background: #f8fafc;
+  object-fit: contain;
+}
+
+.project-media--crop img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.project-media figcaption {
+  margin-top: 5px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.project-media > a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+#stalker .scholar-icon {
+  display: block;
+  margin-right: 5px;
+}
+
+#stalker a:focus-visible,
+.publication-entry a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.research-list {
+  margin: 18px 0 32px 22px;
+}
+
+.research-list li {
+  margin-bottom: 22px;
+  padding-left: 4px;
+}
+
+.research-list p {
+  margin: 3px 0 0;
+}
+
+.research-title {
+  font-weight: 600;
+}
+
+.research-authors {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.publication-list {
+  margin: 44px 0 48px;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-entry {
+  margin: 0 0 48px;
+  line-height: 1.5;
+}
+
+.publication-media iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 6px;
+}
+
+.publication-title {
+  margin: 0 0 3px;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.publication-details p {
+  margin: 2px 0 0;
+  line-height: 1.5;
+}
+
+.publication-distinction {
+  margin-left: 5px;
+  color: #bf3b28;
+  font-weight: 600;
+}
+
+.publication-details .publication-summary {
+  margin-top: 14px;
+}
+
+.mobile-nav {
+  display: none;
 }

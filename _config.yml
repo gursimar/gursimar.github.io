@@ -1,8 +1,8 @@
 # General Jekyll Config
 highlighter: rouge
-url: http://gursimar.github.io/
+url: https://gursimar.github.io
 lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor, scripts, CV_2026.pdf, linkedin.dump]
 markdown: kramdown
 
 kramdown:

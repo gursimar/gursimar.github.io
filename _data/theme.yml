@@ -11,16 +11,16 @@ social:
   #stackexchange: 348619
   #stackoverflow: 348619
   #twitter: _swanson
-  facebook: singh.gursimr
   #tumblr: animalygifs
   linkedin: gursimar
-  gplus: +GursimransinghMuhar
+  scholar: "https://scholar.google.com/citations?user=SHHfhvEAAAAJ&hl=en"
   #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
   #flickr: johndoe
 
 # "Hi, I'm _______"
 name: Gursimran
-email: simar.i3r@gmail.com
+email: gursimran.ubc@gmail.com
+description: "Gursimran Singh — Staff AI Researcher working on efficient LLM inference, RL fine-tuning, and multimodal AI."
 tagline: "weak opinions, strongly held"
 
 # Google Analytics key, leave blank to ignore
@@ -28,6 +28,3 @@ google_analytics_key: UA-xxxx-x
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
-
-# Toggle link/icon to view atom feed (/atom.xml) in sidebar
-show_atom_feed: true

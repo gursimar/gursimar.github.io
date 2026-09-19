@@ -1,8 +1,8 @@
 {% include base.html %}
-<nav>
+<nav aria-label="Main navigation">
   <div style="float:left">
   <a href="{{base}}/index"><h1 style='margin-left:-30%'>{{site.data.theme.name}}</h1></a>
-  <a href="{{base}}/index"><img style='height: 75%; width: 75%; border-radius: 50%; margin-left:-1%; object-fit: contain' class="img-circle avatar" src="{{base}}/assets/pic.png" id="logo" alt="Blog logo"/></a>
+  <a href="{{base}}/index"><img style='height: 75%; width: 75%; border-radius: 50%; margin-left:-1%; object-fit: contain' class="img-circle avatar" src="{{base}}/assets/pic.png" id="logo" alt="Gursimran Singh"/></a>
   </div>
 
   <div id="bio">
@@ -11,15 +11,14 @@
   </div>
 
   <div id="links">
-    <a href="{{base}}/index">home</a></br>
-    <a href="{{base}}/projects">projects</a></br>
-    <a href="{{base}}/blog">blog</a></br>
-    <a href="{{base}}/assets/cv.pdf" target="_blank">cv</a></br>
-
-
+    <a href="{{base}}/index">home</a><br>
+    <a href="{{base}}/projects">projects</a><br>
+    <a href="{{ '/publications.html' | relative_url }}">publications</a><br>
+    <a href="{{ '/patents.html' | relative_url }}">patents</a><br>
+    <a href="{{ '/contact.html' | relative_url }}">contact</a><br>
   </div>
   
-  </br></br>
+  <br><br>
   
   <div id="social">
     {% include social.html %}

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Patents
+description: Selected patents and published patent applications by Gursimran Singh in AI systems, trustworthy machine learning, and RFID technology.
+---
+
+<h3 id="patents">Patents</h3>
+<p>Selected granted patents and published applications.</p>
+
+<ol class="research-list">
+{% for patent in site.data.patents %}
+    <li>
+        {% if patent.url %}
+        <a class="research-title" href="{{ patent.url | escape }}">{{ patent.title | escape }}</a>
+        {% else %}
+        <span class="research-title">{{ patent.title | escape }}</span>
+        {% endif %}
+        <p class="research-authors">{{ patent.inventors | escape | replace: 'Gursimran Singh', '<strong>Gursimran Singh</strong>' }}</p>
+        <p>{{ patent.number | escape }} &middot; {{ patent.kind | escape }}{% if patent.country %} &middot; {{ patent.country | escape }}{% endif %}{% if patent.year %}, {{ patent.year | escape }}{% endif %}{% if patent.journal %} &middot; {{ patent.journal | escape }}{% endif %}</p>
+    </li>
+{% endfor %}
+</ol>
